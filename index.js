@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 
 //MY ROUTES
 app.get('/', function(req, res) {
-  rs.send("Hi thi chatbpox")
+  res.send("Hi this chatbpox")
 })
 
 app.get('/webhook/', function(req, res) {
